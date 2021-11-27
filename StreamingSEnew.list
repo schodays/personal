@@ -1,13 +1,21 @@
-# > bilibili Intl
-DOMAIN-SUFFIX,biliintl.com
-DOMAIN,apm-misaka.biliapi.net
-DOMAIN,p.bstarstatic.com
-DOMAIN,p-bstarstatic.akamaized.net
-DOMAIN,upos-bstar-mirrorakam.akamaized.net
-DOMAIN,upos-bstar1-mirrorakam.akamaized.net
-DOMAIN-SUFFIX,hdslb.com
-IP-CIDR,119.29.29.29/32
+# APP搜索仅限港澳台
+IP-CIDR,203.107.1.0/24,
+IP-CIDR,120.240.49.0/24
+# 网站搜索
+DOMAIN,search.bilibili.com
+# 阿里HTTPDNS
+IP-CIDR,203.107.1.33/32
 IP-CIDR,203.107.1.34/32
 IP-CIDR,203.107.1.65/32
 IP-CIDR,203.107.1.66/32
+# 台湾
 IP-CIDR,150.116.92.250/32
+# 香港
+IP-CIDR,45.43.32.234/32
+IP-CIDR,164.52.76.18/32
+IP-CIDR,128.1.62.200/32
+IP-CIDR,128.1.62.201/32
+# APP
+DOMAIN,api.bilibili.com
+# 网页，没有的话无法进入网页版播放页面
+DOMAIN,www.bilibili.com
