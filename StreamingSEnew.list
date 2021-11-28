@@ -1,8 +1,5 @@
-# APP搜索仅限港澳台
-IP-CIDR,203.107.1.0/24,
-IP-CIDR,120.240.49.0/24
-# 网站搜索
-DOMAIN,search.bilibili.com
+
+DOMAIN,upos-hz-mirrorakam.akamaized.net
 # 阿里HTTPDNS
 IP-CIDR,203.107.1.33/32
 IP-CIDR,203.107.1.34/32
